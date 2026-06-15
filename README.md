@@ -7,7 +7,7 @@ Official repository for the paper *_Learning Concept Bottleneck Models from Mech
 A Mechanistic Concept Bottleneck Model (M-CBM) is an inherently interpretable model whose predictions can be traced back and explained in terms of human-understandable concepts that the model has automatically learned from the data it was trained on.
 
 **How does this differ from prior CBMs?**
-Prior CBM approaches typically require prescribing the model with concepts chosen a priori by human experts, via prompting an LLM, from open knowledge graphs, or from vision-language models such as CLIP. However, such predefined concepts may not have sufficient predictive power for the task, or may not even be observable in the data. M-CBM instead uses mechanistic interpretability to reverse-engineer human-understandable concepts already learned by a trained black-box model, and then uses these concepts to convert the black-box into a CBM that better preserves the performance of the original model.
+Prior CBM approaches typically require prescribing the model with concepts chosen a priori by human experts, via prompting an LLM, from open knowledge graphs, or from vision-language models such as CLIP. However, such predefined concepts may not have sufficient predictive power for the task or may not even be observable in the data. M-CBM instead uses mechanistic interpretability to reverse-engineer human-understandable concepts already learned by a trained black-box model, and then uses these concepts to convert the black-box into a CBM that better preserves the performance of the original model.
 
 ## How does it work?
 
