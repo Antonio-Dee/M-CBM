@@ -1,0 +1,20 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+numpy==1.26.4
+pillow==12.2.0
+pandas==2.3.3
+scipy==1.15.2
+scikit-learn==1.7.2
+tqdm==4.67.3
+pytorchcv==0.0.67
+openai==2.37.0
+google-genai==2.6.0
+sparse_autoencoder==1.10.0
+transformer-lens==1.12.0
+transformers==4.37.1
+jaxtyping==0.2.25
+pytest==7.4.4
+matplotlib==3.10.9
+ipython==8.37.0
+jupyterlab==4.6.1
