@@ -58,7 +58,7 @@ This creates an activation folder inside `activations/cub/` and saves `activatio
 
 **Optional: use precomputed annotations**
 
-After extracting activations, you can optionally skip steps 1-3 by downloading the precomputed annotations from [here](https://dataverse.harvard.edu/previewurl.xhtml?token=c0f70db2-4bd8-4249-bee2-fc32a310e9fe) and placing them inside the `outputs/annotations/` folder. Then continue from step 4.1.
+After extracting activations, you can optionally skip steps 1-3 by downloading the precomputed annotations from [here](https://doi.org/10.7910/DVN/T1Q4JC) and placing them inside the `outputs/annotations/` folder. Then continue from step 4.1.
 
 **1. Train the SAE**
 
